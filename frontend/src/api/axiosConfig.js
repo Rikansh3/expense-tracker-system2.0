@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:5000/api', // Backend Node.js URL
+    baseURL: 'https://expense-backend-1-3lsu.onrender.com', // Backend Node.js URL
     withCredentials: true // For cookies
 });
 
